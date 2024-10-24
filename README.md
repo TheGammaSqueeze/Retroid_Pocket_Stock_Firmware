@@ -1,9 +1,18 @@
 # Retroid Pocket Mini - Qualcomm Flash Image Loader (QFIL) Recovery Guide
 
+## ⚠️ WARNING
+
+**Proceed at your own risk!** This process is intended for advanced users only. I take no responsibility for any issues, malfunctions, or damage that may occur to your device as a result of following this guide. Flashing firmware and modifying system files can be risky, and if done incorrectly, may lead to further software or hardware issues. 
+
+By following this guide, you also acknowledge that this process will **void any warranty** you have with Retroid. Make sure to back up your data before proceeding, as this process may result in data loss.
+
 This guide will walk you through using the Qualcomm Flash Image Loader (QFIL) Tool and the QFILHelper tool to recover your Retroid Pocket Mini, a Snapdragon 865 device, from a software brick.
 
 ## Included Files:
 
+You will need 7-Zip to decompress the split package. Download all parts, then extract Android10_RPMini_V1.0.0.310_20240926_181623_user.7z.001 using 7-Zip.
+
+The extracted folder will contain:
 - `flash/`: Firmware files for flashing
 - `prog_ufs_firehose_sm8250_lite_lp5.elf`: Firehose programmer file for communication with the Retroid Pocket Mini in Emergency Download (EDL) mode.
 - `QFILHelper.exe`: Script to execute the flashing process.
