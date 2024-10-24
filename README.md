@@ -21,6 +21,9 @@ The extracted folder will contain:
 
 ## Step-by-Step Instructions:
 
+### Video guide (skips Drivers and QPST install): 
+[![Retroid Pocket Mini - Restoring the stock firmware - QFIL flashing guide](https://github.com/user-attachments/assets/76368fe6-9c53-4ae0-83f7-5a49cbb860c6)](https://www.youtube.com/watch?v=Qlpwn4KPZr0 "Retroid Pocket Mini - Restoring the stock firmware - QFIL flashing guide")
+
 ### 1. Install Qualcomm USB Drivers
 Extract and install `Qualcomm_USB_Driver_v1.0.10061.1.zip`.  
 Follow the install instructions available at: [Qualcomm Driver Installation](https://qcomdriver.com/install-qualcomm-usb-driver)
