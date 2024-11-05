@@ -10,6 +10,7 @@ This guide will walk you through using the Qualcomm Flash Image Loader (QFIL) To
 
 ## Included Files:
 
+Download the relevant files for your device from releases: https://github.com/TheGammaSqueeze/Retroid_Pocket_Stock_Firmware/releases
 You will need 7-Zip to decompress the split package. Download all parts, then extract either Android10_RPMini_V1.0.0.310_20240926_181623_user.7z.001 for RP MINI or Android13_RP5_V1.0.0.31_20241026_190102_user.7z.001 for RP5 using 7-Zip.
 
 The extracted folder will contain:
