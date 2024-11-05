@@ -1,4 +1,4 @@
-# Retroid Pocket Mini - Qualcomm Flash Image Loader (QFIL) Recovery Guide
+# Retroid Pocket Mini / 5 - Qualcomm Flash Image Loader (QFIL) Recovery Guide
 
 ## ⚠️ WARNING
 
@@ -6,11 +6,11 @@
 
 By following this guide, you also acknowledge that this process will **void any warranty** you have with Retroid. Make sure to back up your data before proceeding, as this process may result in data loss.
 
-This guide will walk you through using the Qualcomm Flash Image Loader (QFIL) Tool and the QFILHelper tool to recover your Retroid Pocket Mini, a Snapdragon 865 device, from a software brick.
+This guide will walk you through using the Qualcomm Flash Image Loader (QFIL) Tool and the QFILHelper tool to recover your Retroid Pocket Mini / 5, a Snapdragon 865 device, from a software brick.
 
 ## Included Files:
 
-You will need 7-Zip to decompress the split package. Download all parts, then extract Android10_RPMini_V1.0.0.310_20240926_181623_user.7z.001 using 7-Zip.
+You will need 7-Zip to decompress the split package. Download all parts, then extract either Android10_RPMini_V1.0.0.310_20240926_181623_user.7z.001 for RP MINI or Android13_RP5_V1.0.0.31_20241026_190102_user.7z.001 for RP5 using 7-Zip.
 
 The extracted folder will contain:
 - `flash/`: Firmware files for flashing
@@ -21,7 +21,7 @@ The extracted folder will contain:
 
 ## Step-by-Step Instructions:
 
-### Video guide (skips Drivers and QPST install): 
+### Video guide (skips Drivers and QPST install, works on both RP Mini and RP 5): 
 [![Retroid Pocket Mini - Restoring the stock firmware - QFIL flashing guide](https://github.com/user-attachments/assets/76368fe6-9c53-4ae0-83f7-5a49cbb860c6)](https://www.youtube.com/watch?v=Qlpwn4KPZr0 "Retroid Pocket Mini - Restoring the stock firmware - QFIL flashing guide")
 
 ### 1. Install Qualcomm USB Drivers
@@ -39,8 +39,8 @@ Set the Programmer Path to the file in the extracted firmware package:
 `prog_ufs_firehose_sm8250_lite_lp5.elf`.  
 At the bottom right of the QFIL window, change the **Storage Type** to **UFS**.
 
-### 4. Enter EDL Mode on the Retroid Pocket Mini
-Connect your Retroid Pocket Mini via the USB cable.  
+### 4. Enter EDL Mode on the Retroid Pocket Mini / 5
+Connect your Retroid Pocket Mini / 5 via the USB cable.  
 Press and hold the **Power + Volume Down + Volume Up** buttons simultaneously until the device enters EDL Mode.  
 You will know the device is in EDL mode when QFIL shows **"Please Select an Existing Port"** at the top.
 
